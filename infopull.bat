@@ -38,15 +38,6 @@ echo ############### NETWORK CONNECTIONS ############### >>report.txt
 netstat -abn >>report.txt
 echo. >>report.txt
 echo ############### MEMORY DUMP && MD5 HASH ############### >>report.txt
-
-
-#unused commands
-#
-#
-#
-#
-#
-#
 #hash automatically
 #certUtil -hashfile memdump MD5 >>report.txt
-
+########################## END OF SCRIPT ##################################
