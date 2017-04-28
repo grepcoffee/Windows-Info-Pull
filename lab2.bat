@@ -1,6 +1,6 @@
 cls
 echo ################################################################################################ >report.txt
-echo #                                      DFR 1011 - Lab 1                                        # >>report.txt
+echo #                                      IT INFO PULL SCRIPT                                     # >>report.txt
 echo #                                 AUTOMATED LIVE RESPONSE SCRIPT                               # >>report.txt
 echo #                                      WARNING!! WARNING!!                                     # >>report.txt
 echo #                            TO BE VIEWED BY AUTHORIZED PERSONNEL ONLY                         # >>report.txt
