@@ -37,6 +37,8 @@ echo. >>report.txt
 echo ############### NETWORK CONNECTIONS ############### >>report.txt
 netstat -abn >>report.txt
 echo. >>report.txt
+echo ############### PRODUCT KEY DUMP ############### >>report.txt
+wmic path softwarelicensingservice get OA3xOriginalProductKey >> report.txt
 echo ############### MEMORY DUMP && MD5 HASH ############### >>report.txt
 #hash automatically
 #certUtil -hashfile memdump MD5 >>report.txt
